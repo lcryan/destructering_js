@@ -6,6 +6,11 @@ const product = {
   screenType: 'LED',
 }
 
+const {price, refreshRate} = product;
+console.log(price);
+console.log(refreshRate);
+
+
 // Opdracht 2: Destructure type en brand uit onderstaand object, en log ze daarna in de terminal
 
 const productInformation = {
